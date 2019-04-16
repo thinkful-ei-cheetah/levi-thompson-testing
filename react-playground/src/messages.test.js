@@ -5,7 +5,7 @@ import renderer from 'react-test-renderer';
 import Messages from './messages';
 
 describe('<Messages />', () => {
-    //------- Smoke Test -------//
+    //------- Smoke Test ------w-//
     it('renders without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(<Messages />, div);
