@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import List from './List'
 import './App.css';
-import Messages from './Messages';
 
 class App extends Component {
   static defaultProps = {
@@ -27,8 +26,6 @@ class App extends Component {
             />
           ))}
         </div>
-        <Messages name="Messages" unread={0}/>
-        <Messages name="Notifications" unread={10}/>
       </main>
     );
   }

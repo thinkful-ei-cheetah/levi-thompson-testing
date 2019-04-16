@@ -9,7 +9,11 @@ exports[`<Card /> renders looks as expected 1`] = `
   >
     delete
   </button>
-  <h3 />
-  <p />
+  <h3>
+    Test Title
+  </h3>
+  <p>
+    Test Content
+  </p>
 </div>
 `;

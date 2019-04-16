@@ -13,8 +13,13 @@ describe('<Card />', () => {
     });
 
     //------- Snapshot Test -------//
+    
+
     it('renders looks as expected', () => {
-        const tree = renderer.create(<Card />).toJSON();
+        const id = '1234';
+        const title = 'Test Title';
+        const content = 'Test Content'; 
+        const tree = renderer.create(<Card key={id} title={title} content={content}/>).toJSON();
         expect(tree).toMatchSnapshot();
     });
 })
